@@ -1,4 +1,6 @@
 // view routes and api routes can be made into separate js files
+// the status code tells you if the routes exists or not, 404 is a example of a route error
+// 500, 401, etc. 
 const fs = require('fs');
 const path = require('path');
 
@@ -69,5 +71,3 @@ module.exports = app => {
 
 }
 
-// the status code tells you if the routes exists or not, 404 is a example of a route error
-// 500, 401, etc. 
