@@ -1,6 +1,7 @@
 // view routes and api routes can be made into separate js files
 // the status code tells you if the routes exists or not, 404 is a example of a route error
 // 500, 401, etc. 
+// routes code is ready to be pushed into main branch on github
 const fs = require('fs');
 const path = require('path');
 
